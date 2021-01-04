@@ -1,0 +1,4 @@
+Bundle-Name: happyWorld
+Bundle-SymbolicName: com.liferay.happyWorld
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.happyWorld.constants
