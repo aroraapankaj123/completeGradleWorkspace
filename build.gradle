@@ -13,13 +13,14 @@ url 'https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public'
 }
 }
 apply plugin:'org.sonarqube'
-plugins {
-id "org.sonarqube" version "1.0.0"
-}
+
 
 repositories {
 mavenLocal()
 maven {
 url 'https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public'
 }
+}
+plugins {
+id "org.sonarqube" version "1.0.0"
 }
