@@ -12,7 +12,7 @@ url 'https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public'
 }
 }
 }
-apply plugin:'org.sonarqube' version:'1.0.0'
+apply plugin:'org.sonarqube' 
 
 
 repositories {
